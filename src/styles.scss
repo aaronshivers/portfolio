@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+$light: #fcfbfb;
+$light-accent: #cba3ae;
+$main-brand: #ccb4bd;
+$dark-accent: #cc9ba6;
+$dark: #ac5d83;
+
+html {
+  background: $light;
+  color: $dark;
+  font-family: 'Source Sans Pro', sans-serif;
+}
