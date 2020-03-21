@@ -1,1 +1,58 @@
-<p>navigation works!</p>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top addscrollspy" id="navbar">
+
+  <a class="navbar-brand font-weight-bolder mr-xl-3" href="index.html">
+    <img
+      [src]="'assets/img/jackdaw-logo-inverted.svg'"
+      alt="Jackdaw"
+      class="navbar-logo navbar-logo--inverted">
+    <img
+      [src]="'assets/img/jackdaw-logo-default.svg'"
+      alt="Jackdaw"
+      class="navbar-logo navbar-logo--default">
+  </a>
+  <button
+    aria-controls="navbars-default"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    class="navbar-light navbar-toggler"
+    data-target="#navbars-default"
+    data-toggle="collapse"
+    type="button">
+            <span class="navbar-toggler-icon">
+                <span class="burger">
+                    <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            </span>
+            </span>
+  </button>
+  <div class="collapse navbar-collapse ml-auto mr-auto" id="navbars-default">
+    <ul class="navbar-nav ml-auto mr-auto">
+      <li class="nav-item">
+        <a class="nav-link active" href="index.html#index">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#pricing">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#blog-featured">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#contact">Contact</a>
+      </li>
+    </ul>
+    <span class="navbar__slideline" id="slideline"></span>
+
+  </div>
+</nav>
+<!-- /Navigation -->
