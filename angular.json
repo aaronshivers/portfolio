@@ -32,7 +32,16 @@
               "src/assets/css/main.css",
               "src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/js/jquery.js",
+              "src/assets/vendor/js/popper.js",
+              "src/assets/vendor/js/bootstrap.js",
+              "src/assets/vendor/js/aos.js",
+              "src/assets/vendor/js/isotope.js",
+              "src/assets/vendor/js/owl-carousel.js",
+              "src/assets/vendor/js/jarallax.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,7 +107,16 @@
               "src/assets/css/main.css",
               "src/styles/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/js/jquery.js",
+              "src/assets/vendor/js/popper.js",
+              "src/assets/vendor/js/bootstrap.js",
+              "src/assets/vendor/js/aos.js",
+              "src/assets/vendor/js/isotope.js",
+              "src/assets/vendor/js/owl-carousel.js",
+              "src/assets/vendor/js/jarallax.js",
+              "src/assets/js/custom.js"
+            ]
           }
         },
         "lint": {
