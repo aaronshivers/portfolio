@@ -11,6 +11,7 @@ import { CallToActionComponent } from './call-to-action/call-to-action.component
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     CallToActionComponent,
     TestimonialsComponent,
     BlogFeaturedComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
