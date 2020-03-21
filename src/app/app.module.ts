@@ -7,6 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PricingComponent } from './pricing/pricing.component';
+import { CallToActionComponent } from './call-to-action/call-to-action.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PricingComponent } from './pricing/pricing.component';
     HeroComponent,
     AboutComponent,
     PortfolioComponent,
-    PricingComponent
+    PricingComponent,
+    CallToActionComponent
   ],
   imports: [
     BrowserModule
