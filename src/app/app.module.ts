@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeroComponent } from './hero/hero.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    HeroComponent
+    HeroComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
