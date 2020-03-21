@@ -10,6 +10,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
     PricingComponent,
     CallToActionComponent,
     TestimonialsComponent,
-    BlogFeaturedComponent
+    BlogFeaturedComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule
