@@ -7,20 +7,44 @@
   //justify-content: flex-end;
 }
 
-.title {
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-.subtitle {
-  font-size: 2rem;
-  text-transform: uppercase;
+@media (min-width: 500px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
 }
 
 .box {
-  background-color: $main-brand;
+  font-family: $font-header;
   border: 3px solid $dark;
   width: fit-content;
   padding: 1rem;
+}
+
+.box--primary {
+  background-color: $main-brand;
   margin: 1rem 0 1rem auto;
 }
+
+.box--secondary {
+  background-color: $light-accent;
+  margin: 1rem auto 1rem 0;
+}
+
+.header {
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.header--large {
+  font-size: 4rem;
+}
+
+.header--medium {
+  font-size: 3rem;
+}
+
+.header--small {
+  font-size: 2rem;
+}
+

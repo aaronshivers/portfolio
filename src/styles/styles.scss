@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 @import "variables";
 
@@ -11,5 +12,9 @@ html {
   font-size: 10px;
   background: $light;
   color: $dark;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: $font-body;
+}
+
+body {
+  font-size: 1.5rem;
 }
