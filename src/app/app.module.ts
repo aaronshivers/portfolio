@@ -6,6 +6,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PricingComponent } from './pricing/pricing.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     NavigationComponent,
     HeroComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PricingComponent
   ],
   imports: [
     BrowserModule
