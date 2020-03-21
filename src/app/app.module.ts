@@ -8,6 +8,8 @@ import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CallToActionComponent } from './call-to-action/call-to-action.component
     AboutComponent,
     PortfolioComponent,
     PricingComponent,
-    CallToActionComponent
+    CallToActionComponent,
+    TestimonialsComponent,
+    BlogFeaturedComponent
   ],
   imports: [
     BrowserModule
