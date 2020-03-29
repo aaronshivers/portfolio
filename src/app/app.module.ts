@@ -13,6 +13,8 @@ import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfoliosComponent } from './portfolios/portfolios.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { PortfoliosComponent } from './portfolios/portfolios.component';
     PortfoliosComponent
   ],
   imports: [
-    BrowserModule
+    HttpClientModule,
+    BrowserModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
