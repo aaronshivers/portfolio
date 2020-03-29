@@ -16,6 +16,6 @@ export class ContactComponent {
   ) { }
 
   onSubmit(f: NgForm) {
-    this.http.post(this.url, f.value).subscribe();
+    this.http.post(this.url, f.value).subscribe(res => console.log(res));
   }
 }
