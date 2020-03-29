@@ -1,15 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  styleUrls: [ './contact.component.scss' ],
 })
-export class ContactComponent implements OnInit {
+export class ContactComponent {
+  url = 'https://formspree.io/moqlownr';
 
-  constructor() { }
+  constructor(
+    private http: HttpClient,
+  ) { }
 
-  ngOnInit(): void {
+  onSubmit(f: NgForm) {
+    this.http.post(this.url, f.value).subscribe();
   }
-
 }

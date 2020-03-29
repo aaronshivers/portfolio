@@ -1,47 +1,93 @@
 <!-- Contact -->
 <section class="contact" id="contact">
-  <div class="contact__image d-flex align-items-center" style="background-image: url('../../assets/img/contact/contact-pexels-photo-2878707.jpg');">
+  <div
+    class="contact__image d-flex align-items-center"
+    style="background-image: url('../../assets/img/contact/contact-pexels-photo-2878707.jpg');">
     <div class="container">
       <div class="contact__wrapper">
         <div class="row justify-content-md-center d-flex">
           <div class="col-md-12">
             <div class="col-md-12 mb-5">
               <span class="subtitle justify-content-center d-flex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-              <h2 class="justify-content-center d-flex">Get in touch with me</h2>
+              <h2 class="justify-content-center d-flex">Get in touch with
+                me</h2>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
             <ul class="contact-methods">
-              <li><i class="lni-envelope"></i> <a href="#">Mail</a>&nbsp;me at my@email.address</li>
-              <li><i class="lni-phone-handset"></i> <a href="#">Call</a>&nbsp;me at 123412341234</li>
-              <li><i class="lni-map"></i> <a href="#">Visit</a>&nbsp;me at the office</li>
+              <li><i class="lni-envelope"></i> <a href="#">Mail</a>&nbsp;me at
+                my@email.address
+              </li>
+              <li><i class="lni-phone-handset"></i> <a href="#">Call</a>&nbsp;me
+                at 123412341234
+              </li>
+              <li><i class="lni-map"></i> <a href="#">Visit</a>&nbsp;me at the
+                office
+              </li>
             </ul>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <form>
+            <form #f="ngForm" (ngSubmit)="onSubmit(f)">
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input name="name" type="text" class="form-control" id="inputName" placeholder="Name">
+                  <input
+                    #name="ngModel"
+                    ngModel
+                    [class.is-invalid]="name.touched && name.invalid"
+                    class="form-control"
+                    id="inputName"
+                    minlength="2"
+                    maxlength="100"
+                    name="name"
+                    placeholder="Name"
+                    required
+                    type="text">
                   <div class="input-border"></div>
                 </div>
                 <div class="form-group col-md-6">
-                  <input name="email" type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  <input
+                    #email="ngModel"
+                    ngModel
+                    [class.is-invalid]="email.touched && email.invalid"
+                    class="form-control"
+                    id="inputEmail"
+                    name="email"
+                    placeholder="Email"
+                    minlength="5"
+                    maxlength="100"
+                    required
+                    type="email">
                   <div class="input-border"></div>
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-md-12">
-                  <textarea name="message" class="form-control" id="textarea" placeholder="Message..." rows="10"></textarea>
+                  <textarea
+                    #message="ngModel"
+                    ngModel
+                    [class.is-invalid]="message.touched && message.invalid"
+                    class="form-control"
+                    id="textarea"
+                    name="message"
+                    placeholder="Message..."
+                    minlength="5"
+                    maxlength="255"
+                    required
+                    rows="10"></textarea>
                   <div class="input-border"></div>
                 </div>
               </div>
               <div class="form-row mt-5">
                 <div class="col-md-12 justify-content-md-center d-flex">
-                  <button type="submit" class="btn btn-primary btn--shadow btn--wider">Send Message</button>
+                  <button
+                    [disabled]="f.touched && f.invalid"
+                    class="btn btn-primary btn--shadow btn--wider"
+                    type="submit">Send Message
+                  </button>
                 </div>
               </div>
             </form>
