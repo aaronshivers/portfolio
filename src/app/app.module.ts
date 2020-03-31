@@ -5,14 +5,14 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProjectComponent } from './portfolio/project.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { CallToActionComponent } from './call-to-action/call-to-action.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogFeaturedComponent } from './blog-featured/blog-featured.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
-import { PortfoliosComponent } from './portfolios/portfolios.component';
+import { ProjectsComponent } from './portfolios/projects.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,14 +22,14 @@ import { HttpClientModule } from '@angular/common/http';
     NavigationComponent,
     HeroComponent,
     AboutComponent,
-    PortfolioComponent,
+    ProjectComponent,
     PricingComponent,
     CallToActionComponent,
     TestimonialsComponent,
     BlogFeaturedComponent,
     ContactComponent,
     FooterComponent,
-    PortfoliosComponent
+    ProjectsComponent
   ],
   imports: [
     HttpClientModule,

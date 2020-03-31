@@ -29,11 +29,11 @@ const PROJECTS = [
 ];
 
 @Component({
-  selector: 'app-portfolios',
-  templateUrl: './portfolios.component.html',
-  styleUrls: [ './portfolios.component.scss' ],
+  selector: 'app-projects',
+  templateUrl: './projects.component.html',
+  styleUrls: [ './projects.component.scss' ],
 })
-export class PortfoliosComponent implements OnInit {
+export class ProjectsComponent implements OnInit {
   projects: Project[] = PROJECTS;
 
   constructor() {

@@ -3,11 +3,11 @@ import { Project } from '../project';
 
 
 @Component({
-  selector: 'app-portfolio',
-  templateUrl: './portfolio.component.html',
-  styleUrls: [ './portfolio.component.scss' ],
+  selector: 'app-project',
+  templateUrl: './project.component.html',
+  styleUrls: [ './project.component.scss' ],
 })
-export class PortfolioComponent implements OnInit {
+export class ProjectComponent implements OnInit {
   @Input() project: Project;
 
   constructor() {
