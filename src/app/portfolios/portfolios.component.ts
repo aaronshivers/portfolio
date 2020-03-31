@@ -1,5 +1,5 @@
-import {Component, OnInit, Output} from '@angular/core';
-import {Project} from '../project';
+import { Component, OnInit } from '@angular/core';
+import { Project } from '../project';
 
 const PROJECTS = [
   {
@@ -20,12 +20,18 @@ const PROJECTS = [
     image: '../../assets/img/portfolio/portfolio-3.webp',
     link: 'single-portfolio.html',
   },
+  {
+    title: 'Four Cards',
+    category: 'front-end',
+    image: '../../assets/img/portfolio/portfolio-4.webp',
+    link: 'https://four-cards.aaronshivers.now.sh/',
+  },
 ];
 
 @Component({
   selector: 'app-portfolios',
   templateUrl: './portfolios.component.html',
-  styleUrls: ['./portfolios.component.scss'],
+  styleUrls: [ './portfolios.component.scss' ],
 })
 export class PortfoliosComponent implements OnInit {
   projects: Project[] = PROJECTS;
