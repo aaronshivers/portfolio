@@ -6,19 +6,19 @@ const PROJECTS = [
     title: 'items application',
     category: 'full-stack',
     image: '../../assets/img/portfolio/portfolio-1.webp',
-    link: 'single-portfolio.html',
+    link: 'https://items-ui.aaronshivers.now.sh/',
   },
   {
     title: 'Desks by Design',
     category: 'design',
     image: '../../assets/img/portfolio/portfolio-2.webp',
-    link: 'single-portfolio.html',
+    link: 'https://desks-by-design.netlify.com/',
   },
   {
     title: 'Honest Beauty Products',
     category: 'design',
     image: '../../assets/img/portfolio/portfolio-3.webp',
-    link: 'single-portfolio.html',
+    link: 'https://aaronshivers.github.io/honest/',
   },
   {
     title: 'Four Cards',
