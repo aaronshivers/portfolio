@@ -26,6 +26,12 @@ const PROJECTS = [
     image: '../../assets/img/portfolio/portfolio-4.webp',
     link: 'https://four-cards.aaronshivers.now.sh/',
   },
+  {
+    title: 'Indecision',
+    category: 'front-end',
+    image: '../../assets/img/portfolio/portfolio-5.webp',
+    link: 'https://indecision.aaronshivers.com/',
+  },
 ];
 
 @Component({
